@@ -198,7 +198,7 @@ function App() {
         <button
           className={`${
             filteredTodo === "all" ? " bg-red-400 text-white" : ""
-          }  px-12 py-2`}
+          }  px-6 md:px-12 py-2`}
           onClick={() => filterChangeHandler("all")}
         >
           All
@@ -206,7 +206,7 @@ function App() {
         <button
           className={`${
             filteredTodo === "active" ? " bg-red-400 text-white" : ""
-          } px-12 py-2 `}
+          }  px-6 md:px-12 py-2 `}
           onClick={() => filterChangeHandler("active")}
         >
           Active
@@ -214,7 +214,7 @@ function App() {
         <button
           className={`${
             filteredTodo === "completed" ? " bg-red-400 text-white" : ""
-          } px-12 py-2 `}
+          }  px-6 md:px-12 py-2 `}
           onClick={() => filterChangeHandler("completed")}
         >
           Completed
