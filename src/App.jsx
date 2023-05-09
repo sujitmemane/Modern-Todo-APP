@@ -120,7 +120,7 @@ function App() {
   return (
     <div className="mx-auto my-8 container flex flex-col items-center justify-between space-y-8">
       <div className="bg-red-400">
-        <div className="flex flex-row items-center justify-between border w-[500px] px-4 py-4">
+        <div className="flex flex-row items-center justify-between border w-[330px] md:w-[500px] px-4 py-4">
           <h1
             className="text-2xl font-bold text-white uppercase
         "
