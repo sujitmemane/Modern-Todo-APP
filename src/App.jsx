@@ -192,7 +192,7 @@ function App() {
         </h1>
       )}
       <div
-        className="flex flex-row items-center space-x-4 font-bold uppercase text-sm
+        className="flex flex-row items-center space-x-4 font-bold uppercase text-sm w-[330px] md:w-[500px]
       "
       >
         <button
