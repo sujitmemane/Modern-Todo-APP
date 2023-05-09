@@ -141,7 +141,7 @@ function App() {
             value={newTodo}
             onKeyDown={addTodo}
             placeholder="Add New Task "
-            className=" swing-in-top-fwd w-[500px]    px-4 py-3 uppercase  text-center border-2 border-red-300    text-black-400 text-sm outline-none "
+            className=" swing-in-top-fwd w-[330px] md:w-[500px]   px-4 py-3 uppercase  text-center border-2 border-red-300    text-black-400 text-sm outline-none "
           />
           <div className="flex flex-row items-center space-x-4">
             <button
@@ -164,12 +164,12 @@ function App() {
       ) : (
         <button
           onClick={() => setNewTask(true)}
-          className="bg-red-400 w-[500px] py-3 text-white font-bold uppercase rounded-sm text-md "
+          className="bg-red-400 w-[330px] md:w-[500px] py-3 text-white font-bold uppercase rounded-sm text-md "
         >
           Add New Task
         </button>
       )}
-      <div className="border-red-400 border-2 px-1 h-4 bg-white w-[500px] flex flex-col justify-center">
+      <div className="border-red-400 border-2 px-1 h-4 bg-white w-[330px] md:w-[500px] flex flex-col justify-center">
         <div className={specialLink} style={{ width: widthColor }}></div>
       </div>
 
