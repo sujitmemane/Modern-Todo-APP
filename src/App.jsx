@@ -1,6 +1,7 @@
 import TodoItem from "./components/TodoItem";
 import { BiTask } from "react-icons/bi";
 import { useEffect, useState } from "react";
+import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 
 import "./App.css";
 
@@ -10,6 +11,7 @@ function App() {
   const [fraction, setFraction] = useState(0);
   const [newTask, setNewTask] = useState(null);
   const [totalInCompleted, setTotalInCompleted] = useState(0);
+
   const [storedTodos, setStoredTodos] = useState(
     JSON.parse(localStorage.getItem("todos")) || []
   );
