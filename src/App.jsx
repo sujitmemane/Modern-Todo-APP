@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   const [filteredTodo, setFilteredTodo] = useState("all");
   const [start, setStart] = useState(0);
-  const [fraction, setFraction] = useState(null);
+  const [fraction, setFraction] = useState(0);
   const [newTask, setNewTask] = useState(null);
   const [totalInCompleted, setTotalInCompleted] = useState(0);
   const [storedTodos, setStoredTodos] = useState(
@@ -109,7 +109,7 @@ function App() {
     }
   });
 
-  const specialLink = `bg-red-400 p-1 `;
+  const specialLink = `bg-red-400 p-1 w-0 `;
   const widthColor = Math.round((start / total) * 100) + "%";
 
   function clearCompleted() {
