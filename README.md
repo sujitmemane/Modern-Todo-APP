@@ -6,7 +6,7 @@ Additionally, it features a progress bar that indicates the percentage of work t
 [Click Here](https://modern-todo-app.vercel.app/)
 
 ## Demo
-<iframe width="560" height="315" src="https://youtu.be/jJiXfo_rNhk" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jJiXfo_rNhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
  
 ## Installation
