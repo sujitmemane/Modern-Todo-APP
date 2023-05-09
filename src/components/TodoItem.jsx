@@ -32,7 +32,7 @@ const TodoItem = ({ todo, onDelete, onEdit, onStatus }) => {
   };
 
   return (
-    <div className=" swing-in-top-fwd flex flex-row items-center justify-between border-2 space-x-4 shadow bg-white w-[500px] px-8 py-3 rounded border-red-300">
+    <div className=" swing-in-top-fwd flex flex-row items-center justify-between border-2 space-x-4 shadow bg-white w-[330px] md:w-[500px] px-8 py-3 rounded border-red-300">
       {isEditing ? (
         <input
           type="text"
